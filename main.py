@@ -7,7 +7,7 @@ start_time = time.time()
 
 credentials = (constants.CLIENT_ID, constants.CLIENT_SECRET)
 account = Account(credentials)
-limit_count = 100
+limit_count = constants.LIMIT_COUNT
 
 mailbox = account.mailbox()
 inbox = mailbox.inbox_folder()
