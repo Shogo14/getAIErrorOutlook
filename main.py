@@ -11,7 +11,7 @@ limit_count = constants.LIMIT_COUNT
 
 mailbox = account.mailbox()
 inbox = mailbox.inbox_folder()
-
+#terget foloder
 ncol_box = inbox.get_folder(folder_name='0.NCOL')
 ai_error_box = ncol_box.get_folder(folder_name='AIエラー')
 un_read_messages = [message for message in ai_error_box.get_messages(limit=limit_count ) if not message._Message__is_read]
