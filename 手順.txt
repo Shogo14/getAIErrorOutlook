@@ -1,9 +1,14 @@
 ＜開始手順＞
 
 source venv/bin/activate
-python app.py
+python main.py
 参考URL：
 https://qiita.com/k8uwall/items/4e98c0b8e615a2e51a79
 
 ＜終了手順＞
 deactivate
+
+
+＜トークンが切れている時の手順＞
+python myauth.py
+を実行
